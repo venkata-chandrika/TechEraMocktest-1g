@@ -1,0 +1,21 @@
+.list-course-item {
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.link {
+  text-decoration: none;
+}
+.course-item-container {
+  display: flex;
+}
+.course-img {
+  margin: 20px;
+}
+.course-name {
+  font-size: 22px;
+  color: #475569;
+  font-weight: bold;
+  align-self: center;
+}

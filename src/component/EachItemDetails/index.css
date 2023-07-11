@@ -1,0 +1,27 @@
+.course-info {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-info-container {
+  box-shadow: 0px 4px 4px 0px #e8e8e8;
+  min-height: 40vh;
+  width: 80%;
+  display: flex;
+}
+.course-pic {
+  width: 300px;
+}
+.name-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.title {
+  color: #1e293b;
+}
+.description {
+  color: #475569;
+}

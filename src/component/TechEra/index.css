@@ -1,0 +1,46 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.logo {
+  align-self: flex-start;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  color: #1e293b;
+  align-self: flex-start;
+  padding-left: 50px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-img {
+  width: 100px;
+}
+.warning {
+  color: #4656a1;
+}
+.warning-text {
+  color: #64748b;
+}
+.retry-btn {
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #4656a1;
+  padding: 10px;
+}
